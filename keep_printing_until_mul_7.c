@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main(){
+    int n;
+    for(n=1; ;n++){
+          printf("Enter the number: ");
+          scanf("%d", &n);
+          printf("%d\n", n);
+          if(n%7 ==0){
+            break;
+          }else{
+            printf("Not Multiple of 7\n");
+         }
+        }
+        printf("Multiple of 7. Thanks!");
+    }
